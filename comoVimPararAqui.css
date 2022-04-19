@@ -96,13 +96,13 @@ nav {
 div li u{
     cursor: not-allowed;
     border-radius: 10px;
-    padding: 20px 50px;
+    padding: 20px 40px;
     background: rgba(24, 22, 22, 0.1);
     backdrop-filter: blur(180px);
     -webkit-backdrop-filter: blur(10px)  
 }
 .button{
-    padding: 20px 50px;
+    padding: 17px 40px;
     display: inline-block;
     color: #ffff;
     text-decoration: none;
@@ -127,5 +127,9 @@ ul u{
     font-size: large;
     margin-top: 0px;
     margin-bottom: 0px;   
-
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(845px, 1fr));
+    gap: 20px;
 }

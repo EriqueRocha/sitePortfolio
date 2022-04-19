@@ -26,15 +26,15 @@ a{
     color: white;
     text-decoration: none;
 }
-
 header img{
     margin-top: 10px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid #000000;
-}
+    border: 6px solid #000000;
+    
 
+}
 .center{
     text-align: center;
 }
@@ -81,13 +81,13 @@ nav {
 div li u{
     cursor: not-allowed;
     border-radius: 10px;
-    padding: 20px 50px;
+    padding: 20px 40px;
     background: rgba(24, 22, 22, 0.1);
     backdrop-filter: blur(180px);
     -webkit-backdrop-filter: blur(10px)  
 }
 .button{
-    padding: 20px 50px;
+    padding: 17px 40px;
     display: inline-block;
     color: #ffff;
     text-decoration: none;
@@ -112,4 +112,9 @@ ul u{
     font-size: large;
     margin-top: 0px;
     margin-bottom: 0px;   
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(845px, 1fr));
+    gap: 20px;
 }
