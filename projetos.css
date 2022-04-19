@@ -14,7 +14,6 @@ ul{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
 ul a{
     color: #000000;
     text-decoration: none;
@@ -26,45 +25,42 @@ a{
     color: white;
     text-decoration: none;
 }
-
-header img{
+main img{
     margin-top: 10px;
-    width: 150px;
-    height: 150px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid #000000;
-    display: flex;
-    justify-content: right;
-    margin-inline-start: 60px;
-    margin-bottom: 10px;
+    display: block;
 }
-header{
-    display: flex;
+main div{
+    display: block;
 }
-header h1{
-    text-align: left;
-    margin-inline-start: 40px;
-    margin-top: 50px;
-}
-header h2{
-    text-align: left;
-    margin-inline-start: 40px;
-}
-.center{
-    text-align: center;
-}
-
-h1{
+main div h1{
     color: #000000;
-    text-align: center;
+    
+    margin-top: 40px;
+    
+}
+h2{
+    text-align: left;
+    
+}
+h3{
+    text-align: left;
+}
+p{
+    text-align: left;
 }
 footer img{
     width: 40px;
     height: 40px;
 }
 footer{
+    margin-left: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 footer a{
     margin:20px;
@@ -81,10 +77,46 @@ nav a:hover{
 }
 main{
     border-radius: 10px;
-    padding: 20px 50px;
+    margin-top: 25px;
+    padding: 0em 0px 1px 25px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(180px);
     -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    width: 270px;
+    height: 505px;
+}
+section {
+    border-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(180px);
+    -webkit-backdrop-filter: blur(10px);
+    display:grid;  
+    margin-left: 70px;
+    justify-content: left;  
+    height: 585px;
+}
+section div{
+    display:grid;  
+    justify-content: left;
+    width: 1100px;
+}
+section b{
+    justify-content: left;
+    display: flex;
+}
+video{
+    margin-left: 40px;
+}
+section p{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 30px;
+}
+section h2{
+    text-align: left;
+    margin-left: 20px;
 }
 nav {
     border-radius: 0px 0px 10px 10px;
@@ -94,8 +126,8 @@ nav {
     -webkit-backdrop-filter: blur(10px);   
 }
 div li u{
-    cursor: not-allowed;
     border-radius: 10px;
+    cursor: not-allowed;
     padding: 20px 50px;
     background: rgba(24, 22, 22, 0.1);
     backdrop-filter: blur(180px);
@@ -107,5 +139,4 @@ ul u{
     font-size: large;
     margin-top: 0px;
     margin-bottom: 0px;   
-
 }
